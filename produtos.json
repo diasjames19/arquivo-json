@@ -1,0 +1,9 @@
+{
+   "id": 1,"produto": "forno","marcas": ["Electrolux","Brastemp","Oster" ],
+    "categoria": ["Eletrodomesticos"],
+    "qtd": [10000],
+    "preco": [1200],
+    "prontaEntrega": true,
+    "idLojas": [45,25,280,750]
+   
+}

@@ -1,9 +1,52 @@
 {
-   "id": 1,"produto": "forno","marcas": ["Electrolux","Brastemp","Oster" ],
-    "categoria": ["Eletrodomesticos"],
-    "qtd": [10000],
-    "preco": [1200],
-    "prontaEntrega": true,
-    "idLojas": [45,25,280,750]
-   
+    "produtos": [
+        {
+            "id": 1,
+            "produto": "forno",
+            "marcas": [
+                "Electrolux",
+                "Brastemp",
+                "Oster"
+            ],
+            "categoria": [
+                "Eletrodomesticos"
+            ],
+            "qtd": [
+                10000
+            ],
+            "preco": [
+                1.2
+            ],
+            "prontaEntrega": true,
+            "idLojas": [
+                45,
+                25,
+                280,
+                750
+            ]
+        },
+        {
+            "id": 2,
+            "produto": "arroz",
+            "marcas": [
+                "TioJoao",
+                "TioMigote",
+                "Bonaza"
+            ],
+            "categoria": [
+                "Cereais"
+            ],
+            "qtd": [
+                2500
+            ],
+            "preco": [
+                3.75
+            ],
+            "prontaEntrega": true,
+            "idLojas": [
+                280,
+                750
+            ]
+        }
+    ]
 }

@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #8229db;
+}
+.title-principal{
+    background-color: #6c3c9d;
+    border-radius: 5px;
+    margin: 7px 0 6px 7px;
+    padding: 10px;
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: white;
+    width: 400px;
+    height: 50px;
+}
+.title-secudario{
+    background-color: #6c3c9d;
+
+    border-radius: 5px;
+    margin: 7px 0 6px 7px;
+    padding: 10px;
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: white;
+    width: 400px;
+    height: 50px;
+}
+.btnUsuario{
+    border-radius: 5px;
+    padding: 2px;
+    margin: 8px;
+    height: 45px;
+    width: 150px;
+    font-size: 0.9rem;
+    font-weight: 700;
+    background-color: #fecc4c;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    gap: 8px;
+}
+.legenda-form{
+    color: white;
+    margin: 3px 0 7px 7px;
+    font-size: 1.0rem;
+    font-weight: bold;
+}
+
+input{
+    padding: 8px;
+    margin: 4px 0 4px 8px;
+}
+textarea{
+    padding: 8px;
+    margin: 4px 0 0 8px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.btnUsuarioPostagem{
+    border-radius: 5px;
+    padding: 2px;
+    margin:0 0 0 8px;
+    height: 45px;
+    width: 400px;
+    font-size: 0.9rem;
+    font-weight: 700;
+    background-color: #fecc4c;
+}
+.usuario{
+    background-color: #6c3c9d;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+    border-radius: 8px;
+    margin: 6px 0 3px 10px;
+}
+#helper-usuario{
+    color: white;
+    font-size: 0.9rem;
+    font-weight: bold;
+    margin-left: 15px;
+}
+.usuario img{
+    height: 100px;
+
+
+}
